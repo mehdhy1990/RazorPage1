@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPageProect.Web", "Razo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPageProect.DataLayer", "RazorPageProect.DataLayer\RazorPageProect.DataLayer.csproj", "{5FFBE783-CE89-471D-ABD2-7AF2AAC3A3F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPageProect.CoreLayer", "RazorPageProect.CoreLayer\RazorPageProect.CoreLayer.csproj", "{B597EA04-F67B-423A-A54B-478A205C52B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5FFBE783-CE89-471D-ABD2-7AF2AAC3A3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FFBE783-CE89-471D-ABD2-7AF2AAC3A3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FFBE783-CE89-471D-ABD2-7AF2AAC3A3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B597EA04-F67B-423A-A54B-478A205C52B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B597EA04-F67B-423A-A54B-478A205C52B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B597EA04-F67B-423A-A54B-478A205C52B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B597EA04-F67B-423A-A54B-478A205C52B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

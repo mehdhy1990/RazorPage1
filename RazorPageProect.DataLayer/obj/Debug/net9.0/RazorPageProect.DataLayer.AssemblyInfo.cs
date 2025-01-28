@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RazorPageProect.DataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdc19cf284b93ed251091bb0f02a437ed249f792")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a09f6af89a1188a75b1e73389192dc7f0549f37")]
 [assembly: System.Reflection.AssemblyProductAttribute("RazorPageProect.DataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RazorPageProect.DataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

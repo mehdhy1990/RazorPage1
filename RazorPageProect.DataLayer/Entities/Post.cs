@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RazorPageProect.DataLayer.Entities;
 
-public class Post
+public class Post : BaseEntity
 {
-    public int Id { get; set; }
+    
     public int UserId { get; set; }
     public int CategoryId { get; set; }
     [Required]
@@ -13,8 +13,7 @@ public class Post
     [Required]
     public string Description { get; set; }
 
-    public DateTime CreateDate { get; set; }
-    public bool IsDelete { get; set; }
+   
     public int Visit { get; set; }
     [Required]
     public string slug { get; set; }

@@ -3,10 +3,9 @@ using System.Reflection;
 
 namespace RazorPageProect.DataLayer.Entities;
 
-public class Category
+public class Category : BaseEntity
 {
-    [Key]
-    public int Id { get; set; }
+   
     [Required]
     public string Title { get; set; }
     [Required]
@@ -15,6 +14,5 @@ public class Category
     public string  MetaDescription { get; set; }
     public ICollection<Post> Posts { get; set; }
 
-    public DateTime CreateDate { get; set; }
-    public bool IsDelete { get; set; }
+   
 }

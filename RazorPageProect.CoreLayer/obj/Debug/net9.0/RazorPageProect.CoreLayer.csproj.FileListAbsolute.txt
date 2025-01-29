@@ -1,0 +1,12 @@
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\bin\Debug\net9.0\RazorPageProect.CoreLayer.deps.json
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\bin\Debug\net9.0\RazorPageProect.CoreLayer.dll
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\bin\Debug\net9.0\RazorPageProect.CoreLayer.pdb
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.AssemblyInfoInputs.cache
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.AssemblyInfo.cs
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.sourcelink.json
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.dll
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\refint\RazorPageProect.CoreLayer.dll
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.pdb
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\ref\RazorPageProect.CoreLayer.dll

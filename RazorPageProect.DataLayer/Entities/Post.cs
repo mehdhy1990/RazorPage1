@@ -12,6 +12,9 @@ public class Post
     public string Title { get; set; }
     [Required]
     public string Description { get; set; }
+
+    public DateTime CreateDate { get; set; }
+    public bool IsDelete { get; set; }
     public int Visit { get; set; }
     [Required]
     public string slug { get; set; }

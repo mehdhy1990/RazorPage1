@@ -11,4 +11,6 @@ public class PostComment
     public int PostId { get; set; }
     [ForeignKey("PostId")] public Post Post { get; set; }
     [ForeignKey("UserId")] public User User { get; set; }
+    public DateTime CreateDate { get; set; }
+    public bool IsDelete { get; set; }
 }

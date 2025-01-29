@@ -14,4 +14,7 @@ public class Category
     public string MetaTag { get; set; }
     public string  MetaDescription { get; set; }
     public ICollection<Post> Posts { get; set; }
+
+    public DateTime CreateDate { get; set; }
+    public bool IsDelete { get; set; }
 }

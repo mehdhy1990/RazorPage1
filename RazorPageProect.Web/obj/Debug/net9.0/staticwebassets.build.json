@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qaYvtEDaPjZE4aWIcC8q8mgRBOE6ivfYa4H7oTQ887g=",
+  "Hash": "93NndNc8KkPbU6giRn5qO6CJ+FH4iCoA00MJJNL9yI0=",
   "Source": "RazorPageProect.Web",
   "BasePath": "_content/RazorPageProect.Web",
   "Mode": "Default",
@@ -246,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\wwwroot\\css\\colors\\orange.css"
+    },
+    {
+      "Identity": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\obj\\Debug\\net9.0\\compressed\\gfao9oa75y-rihql92u23.gz",
+      "SourceId": "RazorPageProect.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/RazorPageProect.Web",
+      "RelativePath": "LoginLayout/css/main#[.{fingerprint=rihql92u23}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\wwwroot\\LoginLayout\\css\\main.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3drf24qyuo",
+      "Integrity": "udU8TEESrOP+S4ukyf78vn6X5WfKIG/LT8qWMquULQ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\wwwroot\\LoginLayout\\css\\main.css"
     },
     {
       "Identity": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\obj\\Debug\\net9.0\\compressed\\ivy6vpng25-6ftulm8jyv.gz",
@@ -2388,6 +2409,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\twitterFetcher_min.js"
+    },
+    {
+      "Identity": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\wwwroot\\LoginLayout\\css\\main.css",
+      "SourceId": "RazorPageProect.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\wwwroot\\",
+      "BasePath": "_content/RazorPageProect.Web",
+      "RelativePath": "LoginLayout/css/main#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rihql92u23",
+      "Integrity": "zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\LoginLayout\\css\\main.css"
     }
   ],
   "Endpoints": [
@@ -14542,6 +14584,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-RDxb+BiGnz5QfmudNZ2hiwYJTiEk/dh/7iFKILN5HIk="
+        }
+      ]
+    },
+    {
+      "Route": "LoginLayout/css/main.css",
+      "AssetFile": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\obj\\Debug\\net9.0\\compressed\\gfao9oa75y-rihql92u23.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000501504514"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1993"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"udU8TEESrOP+S4ukyf78vn6X5WfKIG/LT8qWMquULQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 14:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk="
+        }
+      ]
+    },
+    {
+      "Route": "LoginLayout/css/main.css",
+      "AssetFile": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\wwwroot\\LoginLayout\\css\\main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 14:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk="
+        }
+      ]
+    },
+    {
+      "Route": "LoginLayout/css/main.css.gz",
+      "AssetFile": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\obj\\Debug\\net9.0\\compressed\\gfao9oa75y-rihql92u23.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"udU8TEESrOP+S4ukyf78vn6X5WfKIG/LT8qWMquULQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 14:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-udU8TEESrOP+S4ukyf78vn6X5WfKIG/LT8qWMquULQ0="
+        }
+      ]
+    },
+    {
+      "Route": "LoginLayout/css/main.rihql92u23.css",
+      "AssetFile": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\obj\\Debug\\net9.0\\compressed\\gfao9oa75y-rihql92u23.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000501504514"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1993"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"udU8TEESrOP+S4ukyf78vn6X5WfKIG/LT8qWMquULQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 14:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rihql92u23"
+        },
+        {
+          "Name": "label",
+          "Value": "LoginLayout/css/main.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk="
+        }
+      ]
+    },
+    {
+      "Route": "LoginLayout/css/main.rihql92u23.css",
+      "AssetFile": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\wwwroot\\LoginLayout\\css\\main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 14:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rihql92u23"
+        },
+        {
+          "Name": "label",
+          "Value": "LoginLayout/css/main.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zYubu0qOmKK09AOhgwBf3VtTZ70ZS4gDenDbQ143xTk="
+        }
+      ]
+    },
+    {
+      "Route": "LoginLayout/css/main.rihql92u23.css.gz",
+      "AssetFile": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.Web\\obj\\Debug\\net9.0\\compressed\\gfao9oa75y-rihql92u23.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"udU8TEESrOP+S4ukyf78vn6X5WfKIG/LT8qWMquULQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 14:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rihql92u23"
+        },
+        {
+          "Name": "label",
+          "Value": "LoginLayout/css/main.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-udU8TEESrOP+S4ukyf78vn6X5WfKIG/LT8qWMquULQ0="
         }
       ]
     },

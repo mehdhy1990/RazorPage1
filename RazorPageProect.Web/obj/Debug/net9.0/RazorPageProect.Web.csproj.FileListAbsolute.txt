@@ -196,3 +196,4 @@ C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.Web\obj\Debug\net9.
 C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.Web\obj\Debug\net9.0\compressed\7u3ifzjr94-xhbu0o0ue3.gz
 C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.Web\obj\Debug\net9.0\compressed\jifyue8c4z-d53yhzow0w.gz
 C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.Web\obj\Debug\net9.0\compressed\q1pzaryk90-0d34b6rcxy.gz
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.Web\obj\Debug\net9.0\compressed\gfao9oa75y-rihql92u23.gz

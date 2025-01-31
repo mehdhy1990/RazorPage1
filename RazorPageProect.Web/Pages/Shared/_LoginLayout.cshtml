@@ -3,15 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <title>کدیاد-بلاگ</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" type="text/css" href="LoginLayout/css/main.css" />
 </head>
 
 <body>
 <div class="container">
     <section id="content">
-      
+        @RenderBody()
     </section>
+    @await RenderSectionAsync("Scripts",false)
 </div>
 </body>
 

@@ -1004,6 +1004,9 @@
         }
       },
       "RazorPageProect.CoreLayer/1.0.0": {
+        "dependencies": {
+          "RazorPageProect.DataLayer": "1.0.0"
+        },
         "runtime": {
           "RazorPageProect.CoreLayer.dll": {
             "assemblyVersion": "1.0.0",

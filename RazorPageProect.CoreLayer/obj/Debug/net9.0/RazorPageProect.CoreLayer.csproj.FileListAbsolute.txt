@@ -10,3 +10,7 @@ C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug
 C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\refint\RazorPageProect.CoreLayer.dll
 C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.pdb
 C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\ref\RazorPageProect.CoreLayer.dll
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\bin\Debug\net9.0\RazorPageProect.DataLayer.dll
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\bin\Debug\net9.0\RazorPageProect.DataLayer.pdb
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPageProect.CoreLayer.csproj.AssemblyReference.cache
+C:\Users\mehdi\RiderProjects\RazorPageProect\RazorPageProect.CoreLayer\obj\Debug\net9.0\RazorPag.6085F874.Up2Date

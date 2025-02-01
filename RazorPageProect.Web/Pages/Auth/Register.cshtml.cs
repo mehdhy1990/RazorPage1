@@ -7,6 +7,7 @@ using RazorPageProect.CoreLayer.Services;
 
 namespace RazorPageProect.Web.Pages.Auth;
 
+[BindProperties]
 public class Register : PageModel
 {
     private IUserService _userService;
@@ -49,6 +50,7 @@ public class Register : PageModel
             ModelState.AddModelError("UserName", result.Message);
             return Page();
         }
+
         return RedirectToPage("Login");
     }
 }

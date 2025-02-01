@@ -31,7 +31,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.DataLayer\\RazorPageProect.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\mehdi\\RiderProjects\\RazorPageProect\\RazorPageProect.DataLayer\\RazorPageProect.DataLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -12,11 +12,12 @@ public class UserService :IUserService
     {
         _context = context;
     }
-    public void RegisterUser(UserRegisterDTO registerDto)
+    public OperationResult RegisterUser(UserRegisterDTO registerDto)
     {
         var UserName = _context.Users.Any(u => u.UserName == registerDto.UserName);
         if (UserName)
             OperationResult.Error("Username already exist");
+        var passwordHash = registerDto.Password.EncodeToMd5();
         _context.Users.Add(new User()
         {
             UserName = registerDto.UserName,
@@ -24,7 +25,10 @@ public class UserService :IUserService
             IsDelete = false,
             Role = UserRole.User,
             CreateDate = DateTime.Now,
+            Password = passwordHash,
            
         });
+        _context.SaveChanges();
+        return OperationResult.Success();
     }
 }

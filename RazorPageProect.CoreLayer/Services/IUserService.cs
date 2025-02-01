@@ -1,6 +1,8 @@
-﻿namespace RazorPageProect.CoreLayer.Services;
+﻿using RazorPageProect.CoreLayer.DTOs;
+
+namespace RazorPageProect.CoreLayer.Services;
 
 public interface IUserService
 {
-    void RegisterUser();
+    void RegisterUser(UserRegisterDTO registerDto);
 }

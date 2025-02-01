@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using RazorPageProect.CoreLayer;
+using RazorPageProect.CoreLayer.DTOs;
 using RazorPageProect.CoreLayer.Services;
 
 namespace RazorPageProect.Web.Pages.Auth;
@@ -36,6 +38,17 @@ public class Register : PageModel
 
     public IActionResult OnPost()
     {
+        var result = _userService.RegisterUser(new UserRegisterDTO()
+        {
+            FullName = FullName,
+            UserName = UserName,
+            Password = Password
+        });
+        if (result.Status == OperationResultStatus.Error)
+        {
+            ModelState.AddModelError("UserName", result.Message);
+            return Page();
+        }
         return RedirectToPage("Login");
     }
 }

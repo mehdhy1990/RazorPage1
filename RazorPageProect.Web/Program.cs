@@ -1,11 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Scaffolding;
+using RazorPageProect.CoreLayer.Services;
 using RazorPageProect.DataLayer.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddDbContext<BlogContext>(options=>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 

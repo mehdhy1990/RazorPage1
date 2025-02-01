@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Utilites\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\RazorPageProect.DataLayer\RazorPageProect.DataLayer.csproj" />
     </ItemGroup>
 

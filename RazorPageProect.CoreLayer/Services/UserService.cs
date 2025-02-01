@@ -14,8 +14,8 @@ public class UserService :IUserService
     }
     public OperationResult RegisterUser(UserRegisterDTO registerDto)
     {
-        var UserName = _context.Users.Any(u => u.UserName == registerDto.UserName);
-        if (UserName)
+        var IsUserNameExist = _context.Users.Any(u => u.UserName == registerDto.UserName);
+        if (IsUserNameExist)
             OperationResult.Error("Username already exist");
         var passwordHash = registerDto.Password.EncodeToMd5();
         _context.Users.Add(new User()
@@ -29,6 +29,15 @@ public class UserService :IUserService
            
         });
         _context.SaveChanges();
+        return OperationResult.Success();
+    }
+
+    public OperationResult LoginUser(LoginUserDTO loginDto)
+    {
+        var HashedPassword = loginDto.Password.EncodeToMd5();
+        var IsUserNameExist = _context.Users.Any(u => u.UserName == loginDto.UserName
+        && u.Password == HashedPassword);
+        if(!IsUserNameExist)return OperationResult.NotFound();
         return OperationResult.Success();
     }
 }
